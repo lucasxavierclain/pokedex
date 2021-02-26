@@ -1,0 +1,175 @@
+*{
+padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #d8e4ff;
+}
+h2{
+  margin-left: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+[data-number-pokemons]{
+  margin: 25px 0 0 30px;
+}
+.logo{
+  width: 80px;
+  cursor: pointer;
+}
+.menu{
+  align-items: center;
+  display: flex;
+  background-color: #EF5350;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+}
+.container{
+  justify-content: center ;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards{
+  list-style-type: none;
+  margin: 10px 15px;
+  width: 300px;
+  height: 320px;
+  border-radius: 15px;
+  background-color: #80aaf1;
+  font-family: Roboto;
+  text-align: center;
+  transition: 0.5s all;
+  border: 3px solid #FFCD00;
+}
+.cards:hover{
+  background-color: #EF5350;
+  transform: translateY(-10px);
+  box-shadow: 0.8em 1em 2.5em black;
+  cursor: pointer;
+  border: none;
+}
+.category{
+  text-align: end;
+  margin: 15px 25px 0 0;
+}
+.card-image{
+  width: 120px;
+  margin: 15px 0 0 0;
+  background-color: #eaeda1;
+  padding: 10px;
+  border-radius:50px ;
+}
+.type-pokemon{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+hr{
+  width: 70%;
+  background-color: rgb(121, 112, 112);
+  height: 2px;
+  margin: 5px auto;
+  border: none;
+  
+  
+}
+.card-subtitle{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.card-subtitle::first-line {
+  text-transform: capitalize;
+  
+}
+
+.name-pokemon::first-letter, .card-subtitle::first-letter{
+  text-transform: capitalize;
+  
+}
+.info{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}
+button{
+  background: none;
+  border: none;
+  font-size: 17px;
+  font-weight: 650;
+  
+  transition: 0.3s all;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}
+button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(62, 62, 92);
+}
+.steel {
+	background-color: #f4f4f4;
+}
+
+.fire {
+	background-color: #FDDFDF;
+}
+
+.grass {
+	background-color: #DEFDE0;
+}
+
+.electric {
+	background-color: #FCF7DE;
+}
+
+.water, .ice {
+	background-color: #95d9f8;
+}
+
+.ground {
+	background-color: #f8932e;
+}
+
+.rock {
+	background-color: #777777;
+}
+
+.fairy {
+	background-color: #f2b2fd;
+}
+
+.poison {
+	background-color: #6054fd;
+}
+
+.bug {
+	background-color: #65cc61;
+}
+
+.dragon {
+	background-color: #d65959;
+}
+
+.psychic {
+	background-color: #faff6c;
+}
+
+.flying {
+	background-color: #e6dbdb;
+}
+
+.fighting {
+	background-color: #ac934d;
+}
+
+.normal {
+	background-color: #f3dddd;
+}
+
+.card:hover {
+	animation: bounce 0.5s linear;
+}
